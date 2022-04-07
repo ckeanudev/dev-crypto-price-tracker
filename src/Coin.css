@@ -1,0 +1,52 @@
+.coin-row {
+  background-color: #eeeeee;
+  padding: 1.2rem;
+  border-top: 0.5rem solid #005288;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.coin {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.coin img {
+  width: 3.3rem;
+}
+
+.coin h1 {
+  color: #001a2c;
+  font-weight: 500;
+}
+
+.coin p {
+  color: #003a61;
+}
+
+.inner-coin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-coin p {
+  font-size: 0.9rem;
+}
+
+.coin-title-desc {
+  font-weight: 500;
+  color: #001a2c;
+}
+
+.coin-description {
+  color: #001a2c;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(0, 177, 0);
+}
