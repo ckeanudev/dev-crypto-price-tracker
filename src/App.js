@@ -24,9 +24,9 @@ const App = () => {
     setSearch(e.target.value);
   };
 
-  const filteredCoins = coins.filter((coin) =>
-    coin.name.toLowerCase().includes(search.toLowerCase())
-  );
+  const filteredCoins = coins.filter((coin) => {
+    coin.name.toLowerCase().includes(search.toLowerCase());
+  });
 
   return (
     <div className="coin-app">
@@ -35,7 +35,7 @@ const App = () => {
           <h1 className="coin-text">Cryptocurrency Price Tracker</h1>
           <p>
             by{" "}
-            <a href="https://hellockeanu.netlify.app/" target="_blank">
+            <a href="https://ckn.netlify.app/" target="_blank">
               Ckeanu.
             </a>
           </p>
