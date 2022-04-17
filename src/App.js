@@ -35,7 +35,7 @@ const App = () => {
           <h1 className="coin-text">Cryptocurrency Price Tracker</h1>
           <p>
             by{" "}
-            <a href="https://ckn.netlify.app/" target="_blank">
+            <a href="https://ckn-portfolio.netlify.app/" target="_blank">
               Ckeanu.
             </a>
           </p>
